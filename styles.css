@@ -8,7 +8,7 @@
     color: #243e63
 }
 
-body {
+.body {
     max-width: 100vw;
     overflow-x: hidden;
 }
@@ -35,11 +35,11 @@ color: #6415ff;
 
 }
 
-section {
+.section {
     padding: 0 32px;
 }
 
-main {
+.main {
     margin-bottom: 96px;
 }
 
@@ -86,9 +86,9 @@ align-items: center;
 }
 /*NAV BAR*/
 
-nav {
+.nav {
     display: flex;
-    padding-top: 32px;
+   
     justify-content: space-between;
     align-items: center;
 
@@ -209,6 +209,7 @@ header.row{
 
 #steps .row {
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
 }
@@ -256,13 +257,20 @@ footer {
     margin-bottom: -32 px;
     position: relative;
     overflow: hidden;
+   color: rgb(203, 213, 224);
 }
 .footer__info {
 display: flex;
 justify-content: space-between;
 align-items: center;
+color: rgb(203, 213, 224);
 }
 
+.footer__copyright {
+    text-align: center;
+    font-weight: 500;
+   color: rgb(203, 213, 224);
+}
 
 /*
 
