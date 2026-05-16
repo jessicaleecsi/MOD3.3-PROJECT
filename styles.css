@@ -330,9 +330,8 @@ header .row{
   border-right-width: 2px;
   border-bottom-width: 2px;
   border-left-width: 2px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
+  padding: 20px 192px 20px 32px;
+  background-color: #ffffff;
   color: rgb(36, 62, 99);
   font-size: 16px;
   font-weight: 500;
