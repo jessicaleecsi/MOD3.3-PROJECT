@@ -320,15 +320,23 @@ header .row{
 }
 .header__email--input {
   width: 100%;
-  border-radius: 500px;
+  border-radius: 9999px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-bottom-left-radius: 9999px;
   border: 2px solid rgb(229, 231, 235);
-  padding: 20px 192px 20px 32px;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
   color: rgb(36, 62, 99);
   font-size: 16px;
   font-weight: 500;
   position: absolute;
-  top: 0;
-  bottom: 0;
   z-index: 1;
   transition: border-color 300ms;
 }
@@ -337,6 +345,7 @@ header .row{
   color: rgb(158, 170, 189);
 }
 .header__email--input:hover {
+  opacity: 1;
   border-color: rgba(160, 174, 192);
 }
 .header__email--input:focus,
@@ -660,7 +669,7 @@ justify-content: space-between;
 }
 .threeplans {
   display: flex;
-}
+  }
 
 .plan {
   position: relative;
