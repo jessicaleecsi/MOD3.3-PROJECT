@@ -1360,8 +1360,15 @@ margin-top: 12px 0 0 0;
         display: flex;
         justify-content: center;
     flex-direction: column;
-    margin-right: 0;
+    width: 100%;
      gap: 12px;
+    }
+     .start__button:nth-child(1) {
+  margin-right: 0;
+}
+       .start__button {
+  width: 100%;
+  max-width: 900px;
        }
       .footer__bottom {
         flex-direction: column;
